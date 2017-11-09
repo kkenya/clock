@@ -1,3 +1,4 @@
-#Clock
+# Clock
 
-## JavaScriptで時計とストップウォッチを書く
+## Description
+JavaScriptで時計とストップウォッチを書く
