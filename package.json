@@ -4,7 +4,8 @@
   "description": "## Description JavaScriptで時計とストップウォッチを書く",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/kkenya/clock#readme",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
     "install": "^0.12.2",
     "npm": "^6.4.1",
     "webpack": "^4.23.0",

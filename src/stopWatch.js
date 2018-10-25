@@ -55,21 +55,23 @@ StopWatch.prototype.getTime = function () {
 };
 StopWatch.prototype.draw = function () {
     this.ctx.clearRect(
-        this.circle.center.x - this.circle.width / 2, 
-        this.circle.center.y - this.circle.height / 2, 
-        this.circle.width, 
+        this.circle.center.x - this.circle.width / 2,
+        this.circle.center.y - this.circle.height / 2,
+        this.circle.width,
         this.circle.height
     );
     Clock.prototype.drawBase.call(this);
     const time = this.getTime();
     Clock.prototype.drawHand.call(
-        this, 
-        (time % 60) / 60 * 360, 
+        this,
+        (time % 60) / 60 * 360,
         this.hands.second
     ); // sec.mill
     Clock.prototype.drawHand.call(
-        this, 
-        Math.floor(time / 60) / 60 * 360, 
+        this,
+        Math.floor(time / 60) / 60 * 360,
         this.hands.minute
     ); //minute
 };
+
+export default StopWatch;
