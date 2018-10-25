@@ -55,7 +55,7 @@ class Clock {
     this.mill = now.getMilliseconds();
   }
 
-  drawBase(ctx) {
+  drawBase() {
     this.ctx.save();
     //時計の内側
     this.ctx.fillStyle = this.circle.color;
