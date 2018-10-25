@@ -1,0 +1,26 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "## Description JavaScriptで時計とストップウォッチを書く",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkenya/clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkenya/clock/issues"
+  },
+  "homepage": "https://github.com/kkenya/clock#readme",
+  "devDependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.4.1",
+    "webpack": "^4.23.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
