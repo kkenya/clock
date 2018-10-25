@@ -1,8 +1,8 @@
 import Clock from './clock';
 import StopWatch from './stopWatch';
+import './style.css';
 
 window.onload = function () {
-  "use strict";
   const startButton = document.getElementById("start");
   const stopButton = document.getElementById("stop");
   const resetButton = document.getElementById("reset");
@@ -24,7 +24,6 @@ window.onload = function () {
       + (time % 60).toFixed(1) + " sec";
   }, 100);
 
-  //関数宣言文による巻き上げ
   function start() {
     startButton.onclick = null;
     stopButton.onclick = stop;
